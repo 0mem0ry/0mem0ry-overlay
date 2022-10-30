@@ -12,7 +12,7 @@ SRC_URI="https://download.bell-sw.com/java/8u352+8/bellsoft-jdk8u352+8-linux-amd
 LICENSE="GPL-2"
 SLOT="8"
 KEYWORDS="~* ~amd64"
-MY_PV=$(ver_rs 1 'u' 2 '-' ${PV//p/b})
+MY_PV=$(ver_rs 1 'u' 2 '-' ${PV//p})
 
 RDEPEND=">=sys-apps/baselayout-java-0.1.0-r1"
 
