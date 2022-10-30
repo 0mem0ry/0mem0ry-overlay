@@ -19,7 +19,7 @@ RDEPEND=">=sys-apps/baselayout-java-0.1.0-r1"
 RESTRICT="preserve-libs strip"
 QA_PREBUILT=""
 
-S="${WORKDIR}/jdk${MY_PV}-full"
+S="${WORKDIR}/jdk8u352-full"
 
 src_unpack() {
 	default
